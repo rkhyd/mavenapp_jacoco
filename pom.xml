@@ -57,6 +57,9 @@
 						<goals>
 							<goal>prepare-agent</goal>
 						</goals>
+						<configuration>
+          					<propertyName>jaCoCoArgLine</propertyName>
+       					</configuration>
 					</execution>
 					<execution>
 						<id>report</id>
