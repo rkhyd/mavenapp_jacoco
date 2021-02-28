@@ -58,8 +58,8 @@
 							<goal>prepare-agent</goal>
 						</goals>
 						<configuration>
-          					<propertyName>jaCoCoArgLine</propertyName>
-       					</configuration>
+          					<destFile>/var/lib/jenkins/workspace/mavenapp_jacoco/target/jacoco.exec</destFile>
+        				</configuration>
 					</execution>
 					<execution>
 						<id>report</id>
